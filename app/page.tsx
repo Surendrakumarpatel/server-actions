@@ -2,6 +2,7 @@ import { addProductToDatabase } from "@/actions/serverActions";
 import { Product } from "@/typings";
 import AddProductButton from "@/components/AddProductButton";
 
+
 export default async function Home() {
   const res = await fetch("https://6579f0e61acd268f9afa6fdf.mockapi.io/products",
     {
